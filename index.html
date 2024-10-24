@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Survey Form </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Student Survey Form</h1>
+    <p id="description"><em>Let me know what kind of student you are</em></p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name-label">Name <input class="margin" id="name" name="name-label" type="text" placeholder="Enter your name" required></label>
+        <label for="email-label">Email <input class="margin" id="email" name="email-label" type="email" placeholder="Enter you email" required></label>
+        <label for="number-label">Age (optional) <input class="margin" id="number" name="number-label" type="number" placeholder="Age" min="13" max="18"></label>
+        <label for="dropdown">Which grade are you in?
+          <select id="dropdown" name="dropdown">
+            <option value="">Select grade...</option>
+            <option value="1">9th-Freshman</option>
+            <option value="2">10th-Sophomore</option>
+            <option value="3">11th-Junior</option>
+            <option value="4">12th-Senior</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>What do you prefer?</legend>
+        <label for="in-person"><input class="inline" id="in-person" name="preference" type="radio" checked> Study in-person</label>
+        <label for="remotely"><input class="inline" id="remotely" name="preference" type="radio"> Study remotely</label>
+        <label for="in-person"><input class="inline" id="hybrid" name="preference" type="radio"> Study in a hibrid way</label>
+        <label for="not-sure"><input class="inline" id="not-sure" name="preference" type="radio"> Not sure</label>
+      </fieldset>
+      <fieldset>
+        <legend>What subjects do you like most?</legend>
+        <label for="like-english"><input class="inline" id="like-english" value="like-english" type="checkbox"> English</label>
+        <label for="like-mathemetics"><input class="inline" id="like-mathemetics" value="like-mathemetics" type="checkbox"> Mathematics</label>
+        <label for="like-biology"><input class="inline" id="like-biology" value="like-biology" type="checkbox"> Biology</label>
+        <label for="like-history"><input class="inline" id="like-history" value="like-history" type="checkbox"> History</label>
+        <label for="like-geography"><input class="inline" id="like-geography" value="like-geography" type="checkbox"> Geography</label>
+        <label for="like-chemistry"><input class="inline" id="like-chemistry" value="like-chemistry" type="checkbox"> Chemistry</label>
+        <label for="like-physics"><input class="inline" id="like-physics" value="like-physics" type="checkbox"> Physics</label>
+        <label for="like-essay"><input class="inline" id="like-essay" value="like-essay" type="checkbox"> Essay</label>
+      </fieldset>
+      <fieldset>
+        <legend>What subjects do you dislike?</legend>
+        <label for="dislike-english"><input class="inline" id="dislike-english" value="dislike-english" type="checkbox"> English</label>
+        <label for="dislike-mathemetics"><input class="inline" id="dislike-mathemetics" value="dislike-mathemetics" type="checkbox"> Mathematics</label>
+        <label for="dislike-biology"><input class="inline" id="dislike-biology" value="dislike-biology" type="checkbox"> Biology</label>
+        <label for="dislike-history"><input class="inline" id="dislike-history" value="dislike-history" type="checkbox"> History</label>
+        <label for="dislike-geography"><input class="inline" id="dislike-geography" value="dislike-geography" type="checkbox"> Geography</label>
+        <label for="dislike-chemistry"><input class="inline" id="dislike-chemistry" value="dislike-chemistry" type="checkbox"> Chemistry</label>
+        <label for="dislike-physics"><input class="inline" id="dislike-physics" value="dislike-physics" type="checkbox"> Physics</label>
+        <label for="dislike-essay"><input class="inline" id="dislike-essay" value="dislike-essay" type="checkbox"> Essay</label>
+      </fieldset>
+      <label class="comment" for="comment">Comment on your relationship with studies:
+        <textarea class="margin" id="comment" name="comment" rows="3" cols="30" placeholder="Comment on your studies..."></textarea>
+      </label>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>

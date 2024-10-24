@@ -1,0 +1,99 @@
+label {
+  display: block;
+  font-size: large;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(31, 29, 54);
+  color: white;
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+p{
+  margin-bottom: 40px;
+}
+
+form {
+  text-align: left;
+  margin: auto;
+  width: 70vw;
+  max-width: 600px;
+  background-color: rgb(89, 88, 175);
+  padding: 25px;
+}
+
+fieldset {
+  border: none;
+}
+
+input  {
+  width: 100%;
+  min-height: 2em;
+  margin-bottom: 0px;
+  font-size: medium;
+}
+
+.inline {
+  display: inline;
+  width: unset;
+  vertical-align: middle;
+}
+
+select {
+  display: block;
+  min-height: 2.5em;
+  width: 101.5%;
+  margin-top: 5px;
+  color: rgb(105, 103, 103);
+  background-color: white;
+  font-size: medium;
+}
+
+input[type="submit"] {
+  width: 95%;
+  display: block;
+  margin: auto;
+  min-height: 2em;
+  font-size: large;
+  background-color: rgb(13, 233, 50);
+  color: white;
+  border: none;
+}
+
+textarea {
+  margin-bottom: 20px;
+  display: block;
+  width: 94.5%;
+  font-size: large;
+  height: 100px
+}
+
+.comment {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+legend {
+  font-size: larger;
+  margin-top: 20px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.margin {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.top {
+  margin-top: px;
+}
